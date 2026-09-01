@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(ls \"C:\\\\Users\\\\IsmailHussein\\\\OneDrive - SAAS Properties LLC\\\\Desktop\\\\Projects\\\\flutter\\\\flutter-warm-up\\\\web\\\\\")"
+    ]
+  }
+}
