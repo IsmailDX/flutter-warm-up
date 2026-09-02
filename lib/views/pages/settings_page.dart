@@ -127,7 +127,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 onChanged: (value) {
                   setState(() {
                     sliderValue = value;
-                    print(sliderValue);
+                    debugPrint('$sliderValue');
                   });
                 },
               ),
@@ -135,7 +135,7 @@ class _SettingsPageState extends State<SettingsPage> {
               InkWell(
                 splashColor: Colors.tealAccent,
                 onTap: () {
-                  print('Image tapped');
+                  debugPrint('Image tapped');
                 },
                 child: Container(
                   width: double.infinity,
